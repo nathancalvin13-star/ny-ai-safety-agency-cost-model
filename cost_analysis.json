@@ -1,0 +1,328 @@
+{
+  "minimal": {
+    "scenario": "Minimal",
+    "total_staff": 50,
+    "total_annual_budget": 23632500.0,
+    "personnel_costs": 7442500.0,
+    "operational_costs": 16190000.0,
+    "cost_per_employee": 472650.0,
+    "staffing_breakdown": [
+      {
+        "category": "Executive Leadership",
+        "count": 3,
+        "avg_salary": 175000,
+        "total_cost": 682500.0,
+        "description": "Commissioner, Deputy Commissioner, Chief of Staff"
+      },
+      {
+        "category": "Senior Technical Staff",
+        "count": 8,
+        "avg_salary": 145000,
+        "total_cost": 1508000.0,
+        "description": "Senior AI Safety Researchers, Principal ML Engineers"
+      },
+      {
+        "category": "Technical Staff",
+        "count": 20,
+        "avg_salary": 110000,
+        "total_cost": 2860000.0,
+        "description": "AI Safety Researchers, ML Engineers, Model Evaluators"
+      },
+      {
+        "category": "Policy & Legal",
+        "count": 8,
+        "avg_salary": 115000,
+        "total_cost": 1196000.0,
+        "description": "Policy Analysts, Legal Counsel, Regulatory Affairs"
+      },
+      {
+        "category": "Compliance & Enforcement",
+        "count": 6,
+        "avg_salary": 95000,
+        "total_cost": 741000.0,
+        "description": "Compliance Officers, Enforcement Investigators"
+      },
+      {
+        "category": "Operations & Administration",
+        "count": 5,
+        "avg_salary": 70000,
+        "total_cost": 455000.0,
+        "description": "Administrative Support, HR, Finance, IT"
+      }
+    ],
+    "operational_breakdown": [
+      {
+        "category": "Compute Infrastructure & Cloud Services",
+        "annual_cost": 8000000.0,
+        "description": "GPU clusters for model evaluation, cloud services, data storage"
+      },
+      {
+        "category": "Facilities & Real Estate",
+        "annual_cost": 480000.0,
+        "description": "Office space, security, utilities (avg $12k/employee annually in NYC)"
+      },
+      {
+        "category": "Technology & Software",
+        "annual_cost": 400000,
+        "description": "Software licenses, development tools, security tools, collaboration platforms"
+      },
+      {
+        "category": "External Research & Contracts",
+        "annual_cost": 3500000.0,
+        "description": "University partnerships, consulting, third-party audits, expert reviews"
+      },
+      {
+        "category": "Training & Professional Development",
+        "annual_cost": 250000,
+        "description": "Technical training, conferences, certifications, continuing education"
+      },
+      {
+        "category": "Travel & Outreach",
+        "annual_cost": 700000.0,
+        "description": "Industry engagement, international coordination, conferences, site visits"
+      },
+      {
+        "category": "Legal & Compliance",
+        "annual_cost": 560000.0,
+        "description": "External legal counsel, compliance tools, regulatory filings"
+      },
+      {
+        "category": "Communications & Public Affairs",
+        "annual_cost": 400000.0,
+        "description": "Public education, stakeholder engagement, reporting, publications"
+      },
+      {
+        "category": "Emergency Response & Incident Management",
+        "annual_cost": 1500000.0,
+        "description": "Rapid response capabilities, incident investigation, crisis management"
+      },
+      {
+        "category": "Administrative Overhead",
+        "annual_cost": 400000.0,
+        "description": "General supplies, equipment, miscellaneous operational expenses"
+      }
+    ]
+  },
+  "moderate": {
+    "scenario": "Moderate",
+    "total_staff": 150,
+    "total_annual_budget": 52000000.0,
+    "personnel_costs": 21450000.0,
+    "operational_costs": 30550000.0,
+    "cost_per_employee": 346666.6666666667,
+    "staffing_breakdown": [
+      {
+        "category": "Executive Leadership",
+        "count": 5,
+        "avg_salary": 175000,
+        "total_cost": 1137500.0,
+        "description": "Commissioner, 2 Deputy Commissioners, Chief of Staff, Strategic Advisor"
+      },
+      {
+        "category": "Senior Technical Staff",
+        "count": 20,
+        "avg_salary": 145000,
+        "total_cost": 3770000.0,
+        "description": "Senior AI Safety Researchers, Principal Engineers, Technical Directors"
+      },
+      {
+        "category": "Technical Staff",
+        "count": 60,
+        "avg_salary": 110000,
+        "total_cost": 8580000.0,
+        "description": "AI Safety Researchers, ML Engineers, Model Evaluators, Security Analysts"
+      },
+      {
+        "category": "Junior Technical Staff",
+        "count": 20,
+        "avg_salary": 85000,
+        "total_cost": 2210000.0,
+        "description": "Junior Researchers, Technical Analysts, Research Associates"
+      },
+      {
+        "category": "Policy & Legal",
+        "count": 20,
+        "avg_salary": 115000,
+        "total_cost": 2990000.0,
+        "description": "Policy Analysts, Legal Counsel, Regulatory Affairs, Interagency Liaisons"
+      },
+      {
+        "category": "Compliance & Enforcement",
+        "count": 15,
+        "avg_salary": 95000,
+        "total_cost": 1852500.0,
+        "description": "Compliance Officers, Enforcement Investigators, Audit Coordinators"
+      },
+      {
+        "category": "Operations & Administration",
+        "count": 10,
+        "avg_salary": 70000,
+        "total_cost": 910000.0,
+        "description": "Administrative Support, HR, Finance, IT, Communications"
+      }
+    ],
+    "operational_breakdown": [
+      {
+        "category": "Compute Infrastructure & Cloud Services",
+        "annual_cost": 16000000.0,
+        "description": "GPU clusters for model evaluation, cloud services, data storage"
+      },
+      {
+        "category": "Facilities & Real Estate",
+        "annual_cost": 1800000.0,
+        "description": "Office space, security, utilities (avg $12k/employee annually in NYC)"
+      },
+      {
+        "category": "Technology & Software",
+        "annual_cost": 1200000,
+        "description": "Software licenses, development tools, security tools, collaboration platforms"
+      },
+      {
+        "category": "External Research & Contracts",
+        "annual_cost": 5000000.0,
+        "description": "University partnerships, consulting, third-party audits, expert reviews"
+      },
+      {
+        "category": "Training & Professional Development",
+        "annual_cost": 750000,
+        "description": "Technical training, conferences, certifications, continuing education"
+      },
+      {
+        "category": "Travel & Outreach",
+        "annual_cost": 1000000.0,
+        "description": "Industry engagement, international coordination, conferences, site visits"
+      },
+      {
+        "category": "Legal & Compliance",
+        "annual_cost": 800000.0,
+        "description": "External legal counsel, compliance tools, regulatory filings"
+      },
+      {
+        "category": "Communications & Public Affairs",
+        "annual_cost": 500000.0,
+        "description": "Public education, stakeholder engagement, reporting, publications"
+      },
+      {
+        "category": "Emergency Response & Incident Management",
+        "annual_cost": 3000000.0,
+        "description": "Rapid response capabilities, incident investigation, crisis management"
+      },
+      {
+        "category": "Administrative Overhead",
+        "annual_cost": 500000.0,
+        "description": "General supplies, equipment, miscellaneous operational expenses"
+      }
+    ]
+  },
+  "comprehensive": {
+    "scenario": "Comprehensive",
+    "total_staff": 308,
+    "total_annual_budget": 101779200.0,
+    "personnel_costs": 43940000.0,
+    "operational_costs": 57839200.0,
+    "cost_per_employee": 330451.94805194804,
+    "staffing_breakdown": [
+      {
+        "category": "Executive Leadership",
+        "count": 8,
+        "avg_salary": 175000,
+        "total_cost": 1820000.0,
+        "description": "Commissioner, 3 Deputy Commissioners, Chief of Staff, Strategic Advisors, Division Directors"
+      },
+      {
+        "category": "Senior Technical Staff",
+        "count": 40,
+        "avg_salary": 145000,
+        "total_cost": 7540000.0,
+        "description": "Senior Researchers, Principal Engineers, Technical Directors, Research Leads"
+      },
+      {
+        "category": "Technical Staff",
+        "count": 140,
+        "avg_salary": 110000,
+        "total_cost": 20020000.0,
+        "description": "AI Safety Researchers, ML Engineers, Evaluators, Security Analysts, Red Team"
+      },
+      {
+        "category": "Junior Technical Staff",
+        "count": 40,
+        "avg_salary": 85000,
+        "total_cost": 4420000.0,
+        "description": "Junior Researchers, Technical Analysts, Research Associates"
+      },
+      {
+        "category": "Policy & Legal",
+        "count": 35,
+        "avg_salary": 115000,
+        "total_cost": 5232500.0,
+        "description": "Policy Analysts, Legal Counsel, Regulatory Affairs, International Coordinators"
+      },
+      {
+        "category": "Compliance & Enforcement",
+        "count": 25,
+        "avg_salary": 95000,
+        "total_cost": 3087500.0,
+        "description": "Compliance Officers, Enforcement Investigators, Audit Team, Field Inspectors"
+      },
+      {
+        "category": "Operations & Administration",
+        "count": 20,
+        "avg_salary": 70000,
+        "total_cost": 1820000.0,
+        "description": "Administrative Support, HR, Finance, IT, Communications, Facilities"
+      }
+    ],
+    "operational_breakdown": [
+      {
+        "category": "Compute Infrastructure & Cloud Services",
+        "annual_cost": 32000000.0,
+        "description": "GPU clusters for model evaluation, cloud services, data storage"
+      },
+      {
+        "category": "Facilities & Real Estate",
+        "annual_cost": 4435200.0,
+        "description": "Office space, security, utilities (avg $12k/employee annually in NYC)"
+      },
+      {
+        "category": "Technology & Software",
+        "annual_cost": 2464000,
+        "description": "Software licenses, development tools, security tools, collaboration platforms"
+      },
+      {
+        "category": "External Research & Contracts",
+        "annual_cost": 7500000.0,
+        "description": "University partnerships, consulting, third-party audits, expert reviews"
+      },
+      {
+        "category": "Training & Professional Development",
+        "annual_cost": 1540000,
+        "description": "Technical training, conferences, certifications, continuing education"
+      },
+      {
+        "category": "Travel & Outreach",
+        "annual_cost": 1500000.0,
+        "description": "Industry engagement, international coordination, conferences, site visits"
+      },
+      {
+        "category": "Legal & Compliance",
+        "annual_cost": 1200000.0,
+        "description": "External legal counsel, compliance tools, regulatory filings"
+      },
+      {
+        "category": "Communications & Public Affairs",
+        "annual_cost": 600000.0,
+        "description": "Public education, stakeholder engagement, reporting, publications"
+      },
+      {
+        "category": "Emergency Response & Incident Management",
+        "annual_cost": 6000000.0,
+        "description": "Rapid response capabilities, incident investigation, crisis management"
+      },
+      {
+        "category": "Administrative Overhead",
+        "annual_cost": 600000.0,
+        "description": "General supplies, equipment, miscellaneous operational expenses"
+      }
+    ]
+  }
+}
